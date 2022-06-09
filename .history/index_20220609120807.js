@@ -2,9 +2,9 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 /*
- returns all drivers that match the passed in name
- returns matching drivers if case does not match but letters do
- returns an empty array if there is no match
+returns all drivers that match the passed in name
+      ✓ returns matching drivers if case does not match but letters do
+      ✓ returns an empty array if there is no match
 
  */
 function findMatching(drivers, attribute){
